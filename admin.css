@@ -1,0 +1,39 @@
+*{
+  margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif
+}
+  body{
+    background:#f0f2f5;display:flex;justify-content:center;padding:20px
+  }
+  .card{
+    background:white;width:100%;max-width:420px;padding:30px 25px;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,0.1)
+  }
+  h2{
+    text-align:center
+  } 
+  p{
+    text-align:center;color:#777;font-size:14px;margin-bottom:20px
+  }
+  label{
+    font-size:13px;font-weight:600;display:block;margin:16px 0 6px
+  }
+  input[type="text"]{
+    width:100%;padding:13px;border:1.5px solid #e0e0e0;border-radius:12px
+  }
+  input[type="file"]{
+    width:100%;padding:10px;background:#fafafa;border-radius:10px
+  }
+  #preview{
+    width:100%;max-height:220px;object-fit:cover;border-radius:10px;display:none;margin-top:10px;border:1px solid #eee
+  }
+  .btn{
+    width:100%;background:#000;color:white;padding:14px;border:none;border-radius:12px;font-size:16px;font-weight:600;margin-top:20px;cursor:pointer
+  }
+  #message{
+    text-align:center;margin-top:12px;font-weight:600
+  }
+  #debug{
+    text-align:center;margin-top:10px;font-size:12px;color:#888
+  }
+  input[type="number"], select {
+  width:100%;padding:13px;border:1.5px solid #e0e0e0;border-radius:12px;background:white
+}
